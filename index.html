@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--  custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--  Font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link href='https://css.gg/css' rel='stylesheet'>
+
+    <title>E-book Landing Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <a class="navbar-brand" href="#">
+            <img src="img/ebook-logo.png" alt="logo" style="width:180px;">
+          </a>
+        </div>
+        <div class="col-sm-8"><p class="header-contact text-right">Have questions?  Call us <img class="call-icon" src="img/call-icon.png" alt="logo" style="width:20px;">  <a class="phone_number" href="tel:866-567-7432">(866) 567-7432</a></p></div>
+      </div>
+    </div>
+
+
+    <!-- Hero Section-->
+    <section class="jumbotron ">
+      <div class="container">
+        <div class="row">
+          <div class="col hero-content">
+            <h1>How to Build a Loyalty Program for Distributors
+            </h1>
+            <p class="hero-copy">A loyalty program is one of the best ways to enhance your distributors’ experience and your relationships with them. Not only do top-performing loyalty programs make distributors more likely to choose your brand over the competition, they provide customer data that help improve your channel sales and marketing strategies.</p>
+          </div>
+          <div class="col e-book_col">
+            <img class="ebook" src="img/ebook-mockup.png" alt="ebook-mockup" >
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+     <!-- Form Section-->
+     <section>
+      <div class="container">
+        <div class="row">
+          <div class="col main-sec-content">
+            <h3 class="main-sec-heading">Learn how to build a loyalty program for distributors by mastering these processes:
+            </h3>
+            <ul class="main-sec-list">
+              <li>Setting the right distributor loyalty program goals.</li>
+              <li>Determining which loyalty rewards to offer.</li>
+              <li>Using cost-efficient loyalty program budgeting practices.</li>
+              <li>Choosing effective loyalty program tools and technology.</li>
+              <li>Measuring and repeating your loyalty program’s success.</li>
+            </ul>
+            <div class="mascot">
+              <img src="img/mascot.png" alt="ebook-mockup" style="width:230px;">
+            </div>
+          </div>
+          <div class="col main-sec-content">
+            <form class="needs-validation" novalidate>
+              <h2>Download This Free</h2>
+              <p>Distributor Loyalty Program Ebook!</p>
+              <div class="form-group">
+                <input type="text" class="form-control"  placeholder="First Name*" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control"  placeholder="Last Name*" required>
+              </div>
+              <div class="form-group">
+              <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Email Address*" required>
+            </div>
+                <div class="form-group">
+                <input type="text" class="form-control"  placeholder="Company Website*" required>
+              </div>
+          
+            <button class="btn btn-primary" type="submit">GET THE GUIDE NOW!</button>
+          </form>
+          
+          <script>
+          // Example starter JavaScript for disabling form submissions if there are invalid fields
+          (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+              // Fetch all the forms we want to apply custom Bootstrap validation styles to
+              var forms = document.getElementsByClassName('needs-validation');
+              // Loop over them and prevent submission
+              var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                  if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  }
+                  form.classList.add('was-validated');
+                }, false);
+              });
+            }, false);
+          })();
+          </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Video Section-->
+    <section class="video-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-center">
+            <h3 class="main-sec-heading">The Incentive Solutions Story
+            </h3>
+            <p class="video-content">We’ve built incentive solutions for thousands of companies over the years. We also take work personally and make it our mission to inspire growth for our clients and our employees.</p>
+          </div>
+          
+          
+          
+          <div class="col video">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/sUxWUAS0d6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+     <!-- Modal begins-->
+  <section class="email-modal">
+
+    <!-- Close button-->
+    <div class="email-modal__close-btn">
+      <i class="gg-close"></i>
+    </div>
+    
+    <div class="email-modal__container">
+
+      <!-- Left content of Modal-->
+      <div class="email-modal__info">
+        <div class="logo">
+          <img src="img/ebook-logo.png" alt="logo" style="width:250px;">
+        </div>
+        <h2>Free eBook Signup</h2>
+        <p class="email-modal__message">Subscribe below to receive our <span class="email-modal__highlight-text">free eBook updates</span> and never miss the latest product 
+        </p>
+        <div class="email-modal__error-message ">
+          You have entered an invalid email address!
+        </div>
+        <div class="email-modal__form-group ">
+          <input type="text" class="email-modal__input" placeholder="Enter your email">
+          <button class="email-modal__button">Send</button>
+        </div>
+        
+        <div class="email-modal__decline-offer">Sorry, I'm not interested</div>
+      </div>
+
+      <!-- Thank you message after signing up-->
+      <div class="email-thank ">
+        <div class="email-thank__title">
+          Thank You
+        </div>
+        <p class="email-thank__message">
+          Check your email for instructions... by the way welcome to the community!
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Modal ends-->
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
